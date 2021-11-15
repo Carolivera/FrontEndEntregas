@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    text-align: left;
+}
+
+header div {
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    position: relative;
+    }
+
+header .Logo1 {
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    left: 10px;
+    top: 10px;
+   
+}
+
+
+.Menu {
+    display: flex;
+    position: relative;
+    right: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    padding: 10px;
+    top: 30px;
+    left: 810px;
+    color: #F3F3F3;
+    font-size: 16px;
+    line-height: 19px;
+}
+    
+
+section {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    height: 420px;
+}
+
+.Principal {
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    margin-top: 35px;
+
+    background: url(../img/Home.jpg);
+    border-radius: 5px;
+
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FC200C;
+    text-align: center;
+}
+
+span { color: white}
+
+.Podio { 
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    margin-top: 35px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+article div {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+article div ol {
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #222222;
+}
+
+article div ol span {
+    position: absolute;
+    bottom: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+
+}
+
+.Pizza {
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 325px;
+    top: 75px;
+}
+
+footer div {
+    height: 150px;
+    bottom: 8px;
+        
+    background: #222222;
+    display: flex;
+    position: relative;
+        }
+    
+footer .Logo2 {
+    position: absolute;
+    right: 42px;
+    width: 234px;
+    height: 80px;
+    top: 30px;
+    }
+    
+footer nav ul {
+    position: absolute;
+    top: 19px;
+    left: -15px;
+    color: #F3F3F3;
+    font-size: 16px;
+    line-height: 30px;
+    }

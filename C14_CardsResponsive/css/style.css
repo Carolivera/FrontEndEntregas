@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    background-color:  #E5E5E5; 
+}
+
+body header {
+    position: sticky;
+    z-index: 3;
+    top: 0px;
+}
+
+body header div {
+    font-size: 15px;
+    line-height: 17,58px;
+    background-color: #D1891C;
+   
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    text-align: left;
+}
+body header span {
+    position: absolute;
+    width: 100%;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    position: absolute;
+    width: 128px;
+    height: 47px;
+    left: 18px;
+    top: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+section { 
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+    top: 200px;
+}
+
+section article {
+    position: relative;
+    margin: 100px 0;
+    width: 300px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0 0 ;
+    text-align: center;
+}
+
+article div.HeaderCard {
+    background-size: cover;
+    height: 193px;
+}
+
+article div.HeaderCard.Batman1 {
+    background-image: url(../img/BatFondo.png);
+}
+article div i.fas.fa-heart {
+    font-size: 24px;
+    color: red;
+    padding: 10px;
+    position: absolute;
+    left: 5px;
+    
+}
+
+article .Circ {
+    position: relative;
+    top: -10%;
+    border-radius: 50%;
+    width: 120px;
+}
+
+article h3 {
+    position: relative;
+    bottom: 60px;
+    font-size: 30px;
+    line-height: 35,16px;
+}
+
+article p {
+    position: relative;
+    bottom: 40px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+article button {
+    padding: 15px 25px;
+    background-color: #00669F;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.fas.fa-plus-circle {
+    color:#00669F;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+}
+ 
+article .HeaderCard.MujerM {
+    background-image: url(../img/MujerMFondo.png);
+    border-radius: 16px 16px 0 0 ;}
+
+article .HeaderCard.Superman {
+    background-image: url(../img/SupermanFondo.png);
+    border-radius: 16px 16px 0 0 ;}
+
+article div.HeaderCard.Harley {
+    background-image: url(../img/HayleFondo.png);
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    font-family: Roboto;
+    padding: 10px;
+}
+
+footer img {
+    position: absolute;
+    right: 25px; 
+    margin: 5px; 
+    width: 100px; 
+}
+
+@media (max-width: 610px)
+{
+    article.Harley {
+        display: none;
+    }
+    footer { flex-direction: column;
+             flex-wrap: wrap;}
+    footer img {
+            position: static;}
+}

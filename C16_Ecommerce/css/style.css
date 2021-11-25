@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto';
+    background-color:  #E5E5E5; 
+}
+
+body header {
+    position: sticky;
+    z-index: 3;
+    top: 0px;
+}
+
+body header div {
+    font-size: 15px;
+    line-height: 17,58px;
+    background-color: 
+    #1CD1B0;
+   
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+body header span {
+    position: absolute;
+    width: 100%;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    background: #00669F;
+}
+header span img {
+    width: 99px;
+    height: 70,06px;
+    margin-top: 10px;
+}
+
+h1 {
+    position: absolute;
+    left: 118px;
+    top: 30px;
+    color: white;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35,16px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #001D2D;
+    position: absolute;
+    width: 100%;
+    top: 138px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.menu a {
+    color: #FFFFFF;
+    margin: 0px 15px 0px 15px;
+}
+
+.menu a:visited {
+    color: gray;
+}
+
+section { 
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+    top: 200px;
+}
+
+section article {
+    position: relative;
+    margin: 100px 0;
+    width: 300px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0 0 ;
+    text-align: center;
+}
+
+article div.HeaderCard {
+    background-size: cover;
+    height: 193px;
+}
+
+article div.HeaderCard.Batman1 {
+    background-image: url(../img/BatFondo.png);
+}
+article div i.fas.fa-heart {
+    font-size: 24px;
+    color: red;
+    padding: 10px;
+    position: absolute;
+    left: 5px;
+    
+}
+
+article .Circ {
+    position: relative;
+    top: -10%;
+    border-radius: 50%;
+    width: 120px;
+}
+
+article h3 {
+    position: relative;
+    bottom: 60px;
+    font-size: 30px;
+    line-height: 35,16px;
+}
+
+article p {
+    position: relative;
+    bottom: 40px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+article button {
+    padding: 15px 25px;
+    background-color: #00669F;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    position: relative;
+    bottom: 20px;
+    
+}
+article button a {
+    color: white;
+}
+
+.fas.fa-plus-circle {
+    color:#00669F;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+}
+ 
+article .HeaderCard.Superman {
+    background-image: url(../img/SupermanFondo.png);
+    border-radius: 16px 16px 0 0 ;}
+
+article div.HeaderCard.Harley {
+    background-image: url(../img/HayleFondo.png);
+}
+
+.otras {
+    height: 650px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2 {
+    font-family: 'Inter';
+    color: #333333;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input {
+    width: 320px;
+    height: 30px;
+    font-family: Karla;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.boton, .boton1 {
+    width: 320px;
+    height: 30px;
+    font-family: Karla;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    margin: 10px;
+    text-align: center;
+    border-style: none;
+    font-weight: bold;
+    color: #000000;
+}
+.otras p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.comentarios {
+    width: 320px;
+    height: 130px;}
+
+.botones {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 350px;
+    
+}
+.boton1 {
+    border-style: none;
+    background: #888888;
+    color: white;
+}
+
+
+
+footer {
+    display: flex;
+    position: relative;
+    top: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    font-family: Roboto;
+    padding: 10px;
+}
+
+footer img {
+    position: absolute;
+    right: 25px; 
+    margin: 5px; 
+    width: 100px; 
+}
+
+@media (max-width: 610px)
+{
+    article.Harley {
+        display: none;
+    }
+    footer { flex-direction: column;
+             flex-wrap: wrap;}
+    footer img {
+            position: static;}
+}

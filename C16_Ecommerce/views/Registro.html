@@ -18,10 +18,34 @@
         </span>
     </header>
 
-    <main>
-        
-        
-    </section>
+    <main class="otras">
+        <h2>Registro</h2>
+        <form action="/Registro" method="get">
+            <div class="form">
+                <label for="nombre"></label>
+                <input type="text" name="nombre" placeholder="Nombre y apellido...">
+
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Correo electrónico...">
+
+                <label for="contraseña"></label>
+                <input type="password" name="contraseña" placeholder="Contraseña">
+
+                <label for="Pais"></label>
+                <select name="Pais" id="">
+                    <option value="Arg" name="Pais">Argentina</option>
+                    <option value="Col" name="Pais">Colombia</option>
+                    <option value="Br" name="Pais">Brasil</option>
+                </select>
+            
+                <span class="botones">
+                    <button type="reset" class="boton1">Resetear</button>
+                    <button class="boton" type="submit">Registrar</button>
+                </span>
+                <p>¿Ya tenés una cuenta? <a href="../views/Login.html">Ingresá</a></p>
+            </div>
+        </form>
+    
     </main>
     <footer><p>Todos los derechos reservados a FRONT END 1</p></footer>
 </body>

@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background: #E6E6E6;
+}
+
+header img {
+  position: relative;
+  left: 670px;
+  padding: 15px 0px;
+}
+
+header h1 {
+  background: #C4C4C4;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 84.69%;
+  -webkit-font-feature-settings: 'cpsp' on;
+          font-feature-settings: 'cpsp' on;
+  color: #005677;
+  text-align: center;
+  padding: 15px;
+}
+
+main section {
+  position: relative;
+  top: 140px;
+}
+
+main section h3 {
+  background: #C4C4C4;
+  padding: 7px 13px;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 84.69%;
+  color: #005677;
+}
+
+main section ul {
+  padding: 15px 0px;
+  width: 600px;
+}
+
+main section ul li {
+  margin-left: 40px;
+  font-family: Times New Roman;
+  font-size: 15px;
+  line-height: 84.69%;
+  color: #000000;
+  padding: 5px 0px;
+}
+
+main section ul li span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+main section ul li .span2 {
+  font-style: normal;
+}
+
+main section ul li div {
+  margin-left: 75px;
+}
+
+footer {
+  background: #005677;
+  position: relative;
+  top: 180px;
+}
+
+footer h6 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 84.69%;
+  color: #FFFFFF;
+  padding: 11px;
+}
+
+footer i {
+  color: #FFFFFF;
+  padding: 0px 5px;
+}
+/*# sourceMappingURL=style.css.map */
